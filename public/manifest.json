@@ -1,4 +1,6 @@
 {
+  "id": "/?source=pwa",
+  "orientation": "portrait",
   "name": "Inventario Taller Aragua",
   "short_name": "Taller Aragua",
   "description": "Sistema de gestión de inventario para Taller Aragua",
@@ -17,5 +19,13 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  
+],
+"screenshots": [
+  {
+    "src": "/icons/screenshot1.png",
+    "sizes": "1277x783", 
+    "type": "image/png"
+  }
+]
 }
