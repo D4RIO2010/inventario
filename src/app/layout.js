@@ -2,9 +2,22 @@ import './globals.css';
 import { ThemeProvider } from '@/context/ThemeContext';
 import { AuthProvider } from '@/context/AuthContext';
 
+export const viewport = {
+  themeColor: "#000000",
+};
+
 export const metadata = {
   title: 'Taller Aragua 2003 C.A | Sistema de Inventario',
   description: 'Gestión integral de repuestos de motos - Taller Aragua 2003 C.A (Autorizado Yamaha)',
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Taller Aragua",
+  },
+  formatDetection: {
+    telephone: false,
+  },
   icons: {
     icon: '/logo.png',
     shortcut: '/logo.png',
